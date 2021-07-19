@@ -1,0 +1,24 @@
+#container {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: center;
+}
+#container div {
+  margin: 20px;
+  text-align: center;
+  /* border: 1px solid black; */
+  /* padding: 10px; */
+  background: rgba(139, 93, 93, 0.13);
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px;
+  font-size: 20px;
+  /* height: 300px; */
+  overflow: scroll;
+}
+#container img {
+  width: 70%;
+  height: 60%;
+}
+#container img:hover {
+  width: 80%;
+}
